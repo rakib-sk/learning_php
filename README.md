@@ -1,51 +1,75 @@
 # learning_php
 I learing laravel. There is all my php notes and some problems that is i sloved. 
 
-========================
-HTML (Must Know)
-========================
-✅ - HTML5 basic structure
-✅ - Semantic tags (header, nav, section, footer, article)
-✅ - Form elements (input, select, textarea, button)
-✅ - Form attributes (name, action, method)
-✅ - Label + accessibility
-✅ - Table (thead, tbody, tr, td)
-✅ - Meta tags (charset, viewport)
-✅ - Blade-friendly structure thinking
 
-========================
-CSS (Must Know)
-========================
-✅ - Box model (margin, padding, border)
-✅ - Display (block, inline, inline-block, flex)
-✅ - Flexbox (align, justify, gap)
-❌ - Basic grid idea (optional but good)
-❌ - Position (relative, absolute, fixed)
-❌ - Z-index (basic)
-❌ - Responsive design (media query)
-✅ - Utility classes understanding (Bootstrap / Tailwind)
-❌ - Hover, focus states
-❌ - Form & button styling (admin panel level)
+## PHP BASICS (NON-NEGOTIABLE)
 
-========================
-JavaScript (Laravel-focused, Not React-level)
-========================
-✅ - JS basics (var, let, const)
-- Functions (normal + arrow)
-- Conditionals, loops
-- DOM selection (querySelector)
-- Event handling (click, submit)
-- Form validation (basic)
-- Fetch API (GET, POST)
-- JSON parse/stringify
-- Simple AJAX for Laravel
-- Confirmation alert (delete confirm)
-- Error handling (try-catch basic)
-- Understanding async/await (concept level)
+- PHP syntax & execution flow
+- Variables & data types
+- Operators
+- Conditional statements
+- Loops (for, foreach, while)
+- Functions (return, parameters)
+- Include vs require
 
-========================
-What NOT required now
-========================
-- Advanced animation
-- React / Vue
-- Deep JS patterns
+
+## SUPERGLOBALS (VERY IMPORTANT)
+
+- $_GET
+- $_POST
+- $_REQUEST
+- $_SESSION
+- $_COOKIE
+- $_FILES
+- $_SERVER
+
+
+## PHP OOP (CRITICAL FOR LARAVEL)
+
+- Class & object
+- Constructor & destructor
+- Access modifiers (public, private, protected)
+- Inheritance
+- Method overriding
+- Static property & method
+- Interface (why & when)
+- Abstract class (difference from interface)
+- Namespaces
+- Autoloading (basic idea)
+
+
+## SECURITY & DATA HANDLING
+
+- Password hashing (password_hash)
+- Password verify
+- Input sanitization
+- Validation logic
+- Prevent SQL Injection (concept)
+- Error handling (try-catch)
+- Custom error message
+
+
+## DATABASE (PHP SIDE)
+
+- MySQL connection (PDO)
+- Prepared statements
+- CRUD logic
+- Fetch modes (assoc, object)
+- Error handling with DB
+
+
+## PHP + WEB FLOW (JOB CRITICAL)
+
+- Request → Process → Response lifecycle
+- Session-based login logic
+- Role checking logic
+- Redirect vs include
+- File upload handling
+- Pagination logic (concept)
+
+
+## PHP PRACTICE TARGET
+
+- Simple login system (no framework)
+- CRUD with role check
+- Form validation + error show
